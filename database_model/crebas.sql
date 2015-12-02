@@ -105,7 +105,7 @@ create table KUNDE
    ORT                  text,
    LAND                 text,
    GEBURTSTAG           date,
-   STUDENT              bool,
+   STUDENT              TINYINT,
    primary key (KUNDE_ID)
 );
 
