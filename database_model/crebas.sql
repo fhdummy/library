@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     02.12.2015 21:47:28                          */
+/* Created on:     02.12.2015 22:03:18                          */
 /*==============================================================*/
 
 
@@ -24,7 +24,7 @@ drop table if exists REGAL;
 create table BUCH
 (
    MEDIUM_ID            int not null,
-   ISBN                 text not null,
+   ISBN                 VARCHAR(40) not null,
    REGAL_ID             int,
    KUNDE_ID             int,
    STARTZEIT            date,
